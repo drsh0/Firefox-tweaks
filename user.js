@@ -54,6 +54,15 @@ user_pref("browser.search.widget.inNavBar", false);
 user_pref("findbar.highlightAll", true);
 user_pref("findbar.modalHighlight", true);
 
+// Turn on autoscroll (middle click)
+user_pref("general.autoScroll", true);
+
+// Click selects all in address bar (Linux specific)
+user_pref("browser.urlbar.clickSelectsAll", true);
+
+// Dark mode force
+// user_pref("widget.chrome.allow-gtk-dark-theme", true);
+
 ////////////////////////////////////////////////////
 //   Privacy
 ////////////////////////////////////////////////////
@@ -147,3 +156,8 @@ user_pref("browser.shell.checkDefaultBrowser", false);
 
 // Disable search suggestions in location bar
 user_pref("browser.urlbar.suggest.searches", false);
+
+// Disable firefox closing when only 1 tab is present
+user_pref("browser.tabs.closeWindowWithLastTab", false);
+
+
